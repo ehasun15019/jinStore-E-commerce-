@@ -4,6 +4,16 @@
     box-sizing: border-box;
 }
 
+a 
+{
+    text-decoration: none;
+}
+
+li 
+{
+    list-style: none;
+}
+
 :root 
 {
     --m-c: #634C9F;
@@ -17,4 +27,64 @@
 {
     background: var(--m-c);
 }
+
+.sec_nav a
+{
+    color: var(--secFont-c);
+}
+
+.sec_nav p 
+{
+    color: var(--secFont-c);
+}
+
+.sec_nav p span 
+{
+    color: var(--fastFont-c);
+}
+
+.sec_nav select 
+{
+    color: var(--secFont-c);
+    cursor: pointer;
+}
 /* first nav End */
+
+
+/* third_nav_start */
+
+/* .offcanvas-menu 
+{
+    position: fixed;
+    top: 0;
+    left: -250px;
+    width: 250px;
+    height: 100%;
+    background: white;
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.2);
+    transition: left 0.3s ease;
+    padding: 20px;
+}
+
+.offcanvas-menu.show 
+{
+    left: 0;
+}
+
+.close-btn 
+{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background: none;
+    border: none;
+    font-size: 24px;
+    cursor: pointer;
+} */
+
+#navbarSupportedContent .form-control:focus
+{
+    outline: none;
+    box-shadow: none;
+}
+/* third_nav_End */

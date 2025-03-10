@@ -1,0 +1,19 @@
+/* idex(first & sec nav) start */
+@media only screen and (max-width: 1199px){
+    .first_nav,
+    #sec_nav 
+    {
+        display: none;
+    }
+}
+/* idex(first & sec nav) end */
+
+
+/* index(third nav) start */
+@media only screen and (max-width: 991px){
+    .third_nav .navLeft .delivery-sec 
+    {
+        display: none;
+    }
+}
+/* index(third nav) end */
