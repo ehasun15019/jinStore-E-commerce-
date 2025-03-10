@@ -1,0 +1,20 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root 
+{
+    --m-c: #634C9F;
+    --fastFont-c: #EA580C;
+    --secFont-c: #6B7280;
+}
+
+
+/* first nav start */
+.first_nav 
+{
+    background: var(--m-c);
+}
+/* first nav End */
