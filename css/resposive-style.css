@@ -10,10 +10,20 @@
 
 
 /* index(third nav) start */
-@media only screen and (max-width: 991px){
-    .third_nav .navLeft .delivery-sec 
-    {
+@media only screen and (max-width: 991px) {
+    .third-nav .delivery-sec {
         display: none;
+    }
+
+    .navbar-collapse form 
+    {
+        margin-top: 30px;
+    }
+
+    .nav-right  
+    {
+        margin-top: 15px;
+        justify-content: center;
     }
 }
 /* index(third nav) end */
