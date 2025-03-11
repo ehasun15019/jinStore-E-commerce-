@@ -1,22 +1,9 @@
-document.addEventListener("DOMContentLoaded", function () {
-    const menuIcon = document.getElementById("menuIcon");
-    const offcanvas = document.getElementById("offcanvasMenu");
-    const closeIcon = document.getElementById("closeOffcanvas");
+// index(hero section) dropdown start
+document.addEventListener('DOMContentLoaded', function() {
+    const dropdownBtn = document.getElementById('dropdownBtn');
+    const dropdownMenu = document.getElementById('dropdownMenu');
 
-    // Open the offcanvas menu
-    menuIcon.addEventListener("click", function () {
-        offcanvas.classList.add("show");
-    });
-
-    // Close the offcanvas menu
-    closeIcon.addEventListener("click", function () {
-        offcanvas.classList.remove("show");
-    });
-
-    // Close offcanvas if clicked outside
-    document.addEventListener("click", function (event) {
-        if (!offcanvas.contains(event.target) && !menuIcon.contains(event.target)) {
-            offcanvas.classList.remove("show");
-        }
-    });
-});
+    // show the dropdown menu by default
+    dropdownMenu.classList.add('show');
+})
+// index(hero section) dropdown end
