@@ -52,6 +52,13 @@ li
 
 
 /* Third nav start  */
+.third-nav form
+{
+    max-width: 450px;
+    width: 100%;
+    background: #E5E7EB;
+}
+
 #navbarSupportedContent .form-control:focus
 {
     outline: none;
@@ -64,3 +71,7 @@ li
     box-shadow: none;
 }
 /* third_nav_End */
+
+
+
+/* hero sec start */

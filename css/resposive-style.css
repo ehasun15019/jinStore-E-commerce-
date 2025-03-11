@@ -12,7 +12,7 @@
 /* index(third nav) start */
 @media only screen and (max-width: 991px) {
     .third-nav .delivery-sec {
-        display: none;
+        display: none !important;
     }
 
     .navbar-collapse form 
