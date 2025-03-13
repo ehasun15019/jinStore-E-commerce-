@@ -20,6 +20,8 @@ li
     --fastFont-c: #EA580C;
     --secFont-c: #6B7280;
     --red-c: #DC2626;
+    --banner-Paragraph-background: #DDDDDD;
+    --banner-paragraph-color: #7C2D12;
 }
 
 
@@ -227,3 +229,122 @@ li
     font-size: 0.8rem;
 }
 /* arrival end */
+
+
+/* 2nd banner start */
+.second-banner .card-title 
+{
+    color: var(--fastFont-c);
+} 
+
+.second-banner .card 
+{
+    overflow: hidden;
+}
+
+.second-banner .card img 
+{
+    transition: 0.5s ease-in-out;
+}
+
+.second-banner .card:hover img 
+{
+    transform: scale(1.1) rotate(-3deg);
+}
+/* 2nd banner end */
+
+
+
+/* cart start */
+.organic-container 
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cart .organic 
+{
+    width: 67px;
+    height: 24px;
+}
+
+.cart .rating-container 
+{
+    display: flex;
+    gap: 2px;
+    font-size: 0.9825rem;
+    margin: 10px 0;
+}
+
+.cart .cart-button 
+{
+    border: 2px solid var(--m-c);
+    width: 90px;
+    height: 30px;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    margin: 10px 0;
+}
+
+.cart .cart-button a 
+{
+    color: var(--m-c);
+}
+/* cart end */
+
+
+
+/* 3rd banner start */
+.third-banner .card .card-title 
+{
+    background: var(--banner-Paragraph-background);
+    color: var(--banner-paragraph-color);
+    width: 130px;
+    text-align: center;
+    border-radius: 50px;
+}
+
+.third-banner .card .title-2 
+{
+    background: #FFEDD5;
+}
+
+
+.third-banner .card a i 
+{
+    position: relative;
+    top: 2px;
+    left: 4px;
+}
+/* 3rd banner end */
+
+
+/* best seller start */
+.best-seller .card img 
+{
+    width: 200px;
+    margin: 0 auto;
+}
+
+.best-seller .card .love-icon 
+{
+    position: absolute;
+    right: 20px;
+    top: 10px;
+}
+/* best seller end */
+
+
+/* newsletter start */
+/* #newsletter .newsletter-sec 
+{
+    background-image: url('img/newsletter.png') !important;
+} */
+
+#newsletter h5 
+{
+    color: var(--fastFont-c);
+}
+/* newsletter end */
