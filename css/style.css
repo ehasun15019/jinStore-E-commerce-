@@ -110,8 +110,8 @@ li
 .slider-content  
 {
     position: absolute;
-    top: 80px;
-    left: 50px;
+    top: 145px;
+    left: 63px;
 }
 
 .slider-content .button-sec .btn-primary 
@@ -129,3 +129,101 @@ li
     color: var(--red-c);
 }
 /* hero sec End */
+
+
+/* hero card start */
+.hero-card .card p 
+{
+    font-size: 0.8rem;
+}
+/* hero card end */
+
+
+/* banner start */
+.banner .card p
+{
+   color: var(--fastFont-c);
+}
+
+.banner .card 
+{
+    overflow: hidden;
+}
+
+.banner .card img 
+{
+    transition: transform 0.3s ease-in-out;
+}
+
+.banner .card:hover  img 
+{
+    transform: scale(1.1);
+}
+
+.banner .card button 
+{
+    font-size: 0.9rem;
+    position: relative;
+}
+
+.banner .card button i 
+{
+    position: absolute;
+    top: 9px;
+    left: 65%;
+}
+/* banner end */
+
+
+
+/* arrival start */
+.arrival .card .organic img 
+{
+    width: 20px;
+}
+
+.arrival-header .content-2 i 
+{
+    position: relative;
+    top: 2px;
+}
+
+.arrival .card .card-img-top  
+{
+    width: 200px;
+}
+
+.arrival .card-body a 
+{
+    border: 1px solid var(--m-c);
+    border-radius: 50px;
+    color: var(--m-c);
+}
+
+.arrival .card-body a i 
+{
+    position: relative;
+    top: 5px;
+    transition: 0.3s ease;
+}
+
+.arrival .card-body a:hover 
+{
+    background: var(--m-c);
+    color: #fff;
+}
+
+.arrival .positional-button 
+{
+    position: absolute;
+    top: 15px;
+    left: 10px;
+    width: 40px;
+    height: 27px;
+}
+
+.arrival .positional-button p 
+{
+    font-size: 0.8rem;
+}
+/* arrival end */

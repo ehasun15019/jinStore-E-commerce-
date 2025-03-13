@@ -27,3 +27,28 @@
     }
 }
 /* index(third nav) end */
+
+
+/* index(newArrival) start */
+@media only screen and (max-width: 600px){
+    .arrival 
+    {
+        padding: 0 24px;
+    }
+
+    .arrival-header 
+    {
+        flex-direction: column;
+    }
+
+    .arrival .content-1 
+    {
+        flex-direction: column;
+    }
+
+    .content-2  
+    {
+        margin-top: 10px;
+    }
+}
+/* index(newArrival) end */
