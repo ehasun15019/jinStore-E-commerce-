@@ -99,14 +99,6 @@ li
     display: block;
     width: 100%;
     object-fit: cover;
-    position: relative;
-}
-
-.swiper-pagination {
-    padding: 5px 8px;
-    border-radius: 50px;
-    backdrop-filter: blur(12000px);
-    color: var(--fastFont-c)
 }
 
 .slider-content  

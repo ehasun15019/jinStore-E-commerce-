@@ -9,7 +9,7 @@ document.addEventListener('DOMContentLoaded', function() {
 // index(hero section) dropdown end
 
 
-
+// index(countdown) start
 var countDownDate = new Date("March 16, 2025 15:37:25").getTime();
 
 var x = setInterval(function () {
@@ -77,3 +77,4 @@ var x = setInterval(function () {
     });
 
 }, 1000);
+// index(countdown) end
