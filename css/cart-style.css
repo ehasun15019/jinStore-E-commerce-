@@ -98,3 +98,42 @@
 {
     font-size: 0.8rem;
 }
+
+.increment-decrement-sec 
+{
+    height: 42px;
+    width: 100px;
+    border: 1px solid #d9d9d9;
+    border-radius: 10px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px 9px;
+}
+
+.increment-decrement-sec span 
+{
+    font-size: 1.2rem;
+    font-weight: bold;
+    cursor: pointer;
+    user-select: none;
+}
+
+.stoke-sec a 
+{
+    font-size: 0.9rem;
+}
+
+.stoke-sec a img 
+{
+    width: 21px;
+}
+
+.related-product .card .card-title 
+{
+    font-size: 0.836rem;
+}
+
+.related-product .card .position-relative 
+{
+    margin-top: 8px;
+}

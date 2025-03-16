@@ -45,3 +45,37 @@ var x = setInterval(function () {
     });
 
 }, 1000);
+
+
+// increment-decrement-sec start
+let counter = 1;
+const counterElement = document.getElementById("counter");
+const incrementButton = document.getElementById("increment");
+const decrementButton = document.getElementById("decrement");
+
+incrementButton.addEventListener("click", () => {
+    counter++;
+    counterElement.textContent = counter;
+    decrementButton.classList.remove("disabled"); // Enable decrement button
+});
+
+decrementButton.addEventListener("click", () => {
+    if (counter > 1) {
+        counter--;
+        counterElement.textContent = counter;
+        if (counter === 1) {
+            decrementButton.classList.add("disabled"); // Disable if 1
+        }
+    }
+});
+// increment-decrement-sec end
+
+
+// Boostrap tooltips (for whatsup button) start
+document.addEventListener("DOMContentLoaded", function () {
+    var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'));
+    var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
+        return new bootstrap.Tooltip(tooltipTriggerEl);
+    });
+});
+// Boostrap tooltips (for whatsup button) end
