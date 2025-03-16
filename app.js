@@ -10,7 +10,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
 
 // index(countdown) start
-var countDownDate = new Date("March 16, 2025 15:37:25").getTime();
+var countDownDate = new Date("March 18, 2025 15:37:25").getTime();
 
 var x = setInterval(function () {
     var now = new Date().getTime();
@@ -78,3 +78,19 @@ var x = setInterval(function () {
 
 }, 1000);
 // index(countdown) end
+
+
+// cart start
+function imgGallery() {
+const mainImg = document.querySelector('.details_img');
+const smallImg = document.querySelectorAll('.details_small-img');
+
+smallImg.forEach((img) => {
+    img.addEventListener('click', function(){
+    mainImg.src = this.src;
+    })
+})
+}
+
+imgGallery();
+// cart end
